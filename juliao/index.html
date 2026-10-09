@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Continente dos Livros</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Livros a Venda</h1>
+            <ul class="nav-links">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Clássicos</a></li>
+                <li><a href="#">Mangás</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="acoes-usuario">
+            <button id="btn-adicionar-livro" class="btn-adicionar">Adicionar Novo Livro</button>
+        </section>
+        <section class="secao-produtos">
+            <article class="livros">
+                <h1>A Odisseia</h1>
+                <img src="assets/odisseia.png" alt="">
+                <p>O épico clássico de Homero que narra a longa e perigosa jornada de Odisseu de volta para casa.</p>
+                <p>Preco: R$39,99</p>
+                <button>Vender</button>
+            </article>
+            <article class="livros">
+                <h1>One Piece Vl 1</h1>
+                <img src="assets/onepiece.png" alt="">
+                <p>O início da maior aventura pirata! Acompanhe Monkey D. Luffy em sua busca para se tornar o Rei dos Piratas.</p>
+                <p>Preco: R$39,80</p>
+                <button>Vender</button>
+            </article>
+            <article class="livros">
+                <h1>Manifesto do Partido Comunista</h1>
+                <img src="assets/manifesto.png" alt="">
+                <p>A influente obra política e histórica de Karl Marx e Friedrich Engels que moldou a sociedade moderna.</p>
+                <p>Preco: R$39,80</p>
+                <button>Vender</button>
+            </article>
+            <article class="livros">
+                <h1>Quincas Borba</h1>
+                <img src="assets/machadodeassis.png" alt="">
+                <p>A obra-prima de Machado de Assis que explora a filosofia do Humanitismo através da vida do ingênuo Rubião.</p>
+                <p>Preco: R$39,80</p>
+                <button>Vender</button>
+            </article>
+            <article class="livros">
+                <h1>Senselife Vl 1</h1>
+                <img src="assets/senselife.png" alt="">
+                <p>Mergulhe neste primeiro volume repleto de mistérios, reviravoltas e emoções em um mundo totalmente novo.</p>
+                <p>Preco: R$39,80</p>
+                <button>Vender</button>
+            </article>
+        </section>
+    </main>
+    <footer class="rodape">
+        <section class="newsletter" style="margin-bottom: 20px;">
+            <h3>Assine nossa Newsletter</h3>
+            <form id="form-newsletter" style="margin-top: 10px;">
+                <input type="email" id="email-news" placeholder="Digite seu e-mail" style="padding: 8px; border-radius: 4px; border: none;">
+                <button type="submit" style="padding: 8px 15px; border-radius: 4px; border: none; background-color: #f1c40f; font-weight: bold; cursor: pointer;">Assinar</button>
+            </form>
+            <p id="msg-erro" style="color: #ff9ff3; display: none; margin-top: 10px; font-size: 0.9rem;">E-mail inválido. Preencha corretamente!</p>
+        </section>
+        <p>&copy; 2026 Continente dos Livros. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
